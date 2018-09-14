@@ -1,0 +1,22 @@
+//1rem = 16pxl
+
+html {
+    font-size: 62.5%; //transform 16pxl in 10
+}
+
+body {
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    font-size: $medium-size;
+}
+
+button {
+    cursor: pointer;        //cambia il cursore del mouse quando sei sopra ad un bottone
+}
+
+button:disabled {
+    cursor: default;        //rimette il cursore del mouse di default se sei su un bottone disabilitato
+}
+
+.is-active {
+    font-weight: bold;
+}
