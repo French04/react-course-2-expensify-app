@@ -1,0 +1,18 @@
+.header {
+    background: $dark-orange;                       //set background color of header
+}
+
+.header__title {
+    color: white;                                 //set title link color
+    //text-decoration: none;                        //remove the line of link
+    h1 {
+        margin: 0;                                  //remove space from h1 margin
+    }
+}
+
+.header__content {
+    display:  flex;                                 //set the component on the same line
+    align-items: center;                            //allign the component to the center of line
+    justify-content: space-between;                 //set the space between the content components
+    padding: $small-size 0;
+}

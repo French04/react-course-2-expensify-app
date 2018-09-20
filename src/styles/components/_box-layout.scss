@@ -1,0 +1,26 @@
+.box-layout {
+    align-items: center;                                //set component in center
+    background: url('/images/bg.jpg');                  //set the background image from project directory folder
+    background-size: cover;                             //set the image size to cover all background (justify method)
+    display: flex;                                      //vertical box oriented
+    height: 100vh;                                      //set box height to 100% of view port height
+    justify-content: center;                            //set box in the midle
+    width: 100vw;                                       //set box width to 100% of view port width
+}
+
+.box-layout__box {
+    background: fade-out(white, .40);                 //create at semi-transparent backgraund on litle box (.50 is de percentual)
+    border-radius: 3px;                                 //smooth the boarder angle
+    padding: $large-size $medium-size;                  //space l-size from top and bottomo and m-sizo from left and right of little box
+    text-align: center;                                 //set the text to center of litle box
+    width: 25rem;                                       //set litle box width
+}
+
+.box-layout__title {
+    margin: 0 0 $medium-size 0;
+    line-height: 1;
+}
+
+// .box-layout__description {
+//     font-weight: bold;
+// }

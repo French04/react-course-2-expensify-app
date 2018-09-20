@@ -1,0 +1,25 @@
+//Big button
+.big-button {
+    background: $orange;                               //colore dello sfondo del bottone
+    border: none;                                      //nessun bordo al bottone
+    border-radius: 3px;                                //smussa gli angoli al bottone
+    border-bottom: .6rem solid darken($orange, 10%);   //regola la grandezza del bordo inferiore (.6rem) e lo scurisce del 10%
+    color: white;                                    //colore del testo  
+    font-weight: bold;                                 //scritta in bold
+    font-size: $large-size;                            //grandezza del font
+    margin-bottom: $medium-size;                       //spazio da lasciare sotto al bottone
+    padding: 2.4rem;                                   //spazio tra la scritta e i margini sopra e sotto
+    width: 100%;                                       //occupa tutto lo spazio del contenitore
+}
+
+//Regular Button
+.regular-button {
+    background: $orange;                               //colore dello sfondo del bottone
+    border: none;                                      //nessun bordo al bottone
+    border-radius: 3px;                                //smussa gli angoli al bottone
+    border-bottom: .3rem solid darken($orange, 10%);   //regola la grandezza del bordo inferiore (.3rem) e lo scurisce del 10%
+    color: white;                                    //colore del testo  
+    font-weight: 300;                                  //scritta in bold500
+    font-size: $font-size-large;                       //grandezza del font
+    padding: $small-size;                              //spazio tra la scritta e i margini sopra e sotto
+}
