@@ -1,0 +1,16 @@
+.page-expense__header {
+    background: #f7f7f7;                            //set background color
+    display: flex;
+    justify-content: space-between;                   //distanzia gli elementi all'interno del box
+    padding: 0 $medium-size;
+    color: $gray;
+    border: 1px solid darken( #f7f7f7, 5%);
+}
+
+.page-expense__item {
+    display: flex;
+    justify-content: space-between;                   //distanzia gli elementi all'interno del box
+    border: 1px solid darken( #f7f7f7, 5%);
+    padding: 0 $medium-size;
+    text-decoration: none;
+}

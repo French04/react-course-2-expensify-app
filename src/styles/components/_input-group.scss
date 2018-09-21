@@ -1,0 +1,18 @@
+.input-group {
+    display: flex;                                //set display in flex mode
+    flex-direction: column;                       //set flex disposition of the item in culum
+    margin-bottom: $medium-size;                  //set space under the box
+
+    @media (min-width: $desktop-breakpoint) {
+        flex-direction: row;                      //set flex disposition of the item in line when windows is large
+        margin-bottom: $large-size;               //set space under the box
+    }
+}
+
+.input-group__item {
+    margin-bottom: $small-size;                   //set space to margin bottom of single item
+
+    @media (min-width: $desktop-breakpoint) {
+        margin: 0 $small-size 0 0;                //set margin zero for all margin but small size for margin right
+    }
+}

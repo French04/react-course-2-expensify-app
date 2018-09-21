@@ -1,5 +1,9 @@
 //1rem = 16pxl
 
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 62.5%; //transform 16pxl in 10
 }

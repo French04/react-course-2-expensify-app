@@ -1,0 +1,17 @@
+.page-header {
+    background: #f7f7f7;                            //set background color
+    margin-bottom: $large-size;                       //set space under the box 
+    padding: $large-size 0;                           //set space from text margin top and bottom 
+}
+
+.page-header__title {
+    margin: 0;                                        //set no margin
+    font-weight: 300;                                 //set tex to bold 300
+    span {
+        font-weight: bold;                            //set text to bold 700 (700 is default bold value)
+    }
+}
+
+.page-header__actions {
+    margin-top: $medium-size;                         //set space to the top of link add actions   
+}

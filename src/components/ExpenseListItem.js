@@ -24,16 +24,13 @@ numeral.register('locale', 'it', {
 numeral.locale('it');
 
 const ExpenseListItem = ({id, description, amount, createdAt}) => (
-    <div>
-        <Link to={`/edit/${id}`}>
+    <Link className="page-expense__item" to={`/edit/${id}`}>
+        <div>
             <h3>{description}</h3>
-        </Link>
-        <p>
-            {numeral(amount / 100).format('$0,0.00')} 
-             -  
-            {moment(createdAt).format('DD MMMM YYYY')}
-            </p>    
-    </div>
+            <p className="page-expense__data">{moment(createdAt).format('DD MMMM YYYY')}</p>
+        </div>
+        <p>{numeral(amount / 100).format('$0,0.00')}</p>
+    </Link>
 );
 
-export default (ExpenseListItem);
+export default (ExpenseListItem); 

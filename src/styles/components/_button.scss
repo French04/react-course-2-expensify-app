@@ -22,4 +22,20 @@
     font-weight: 300;                                  //scritta in bold500
     font-size: $font-size-large;                       //grandezza del font
     padding: $small-size;                              //spazio tra la scritta e i margini sopra e sotto
+    display: inline-block;
+    text-decoration: none;                             //remove link line under text
+    line-height: 1;                                    //height of the text space
+}
+
+.remove-button {
+    @extend .regular-button;
+    background: $gray;
+    border-bottom: .3rem solid darken($gray, 20%); 
+}
+
+.logout-button {
+    background: none;                                  //remove the background on logout button
+    border: none;                                      //remove the border
+    color: white;                                    //text color to white
+    font-weight: 100;                                  //text in bold 100
 }
