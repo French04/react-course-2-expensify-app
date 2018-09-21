@@ -19,22 +19,117 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <p>
-        No Expenses
-</p>,
+      "children": Array [
+        <div
+          className="page-expense__header"
+>
+          <div>
+                    Expense
+          </div>
+          <div>
+                    Amount
+          </div>
+</div>,
+        <div
+          className="page-expense_body"
+>
+          <div
+                    className="page-expense__item  page-expense__item--message"
+          >
+                    <span>
+                              No Expenses
+                    </span>
+          </div>
+</div>,
+      ],
+      "className": "content-container",
     },
     "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": "No Expenses",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div>
+              Expense
+</div>,
+            <div>
+              Amount
+</div>,
+          ],
+          "className": "page-expense__header",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Expense",
+            },
+            "ref": null,
+            "rendered": "Expense",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Amount",
+            },
+            "ref": null,
+            "rendered": "Amount",
+            "type": "div",
+          },
+        ],
+        "type": "div",
       },
-      "ref": null,
-      "rendered": "No Expenses",
-      "type": "p",
-    },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="page-expense__item  page-expense__item--message"
+>
+            <span>
+                        No Expenses
+            </span>
+</div>,
+          "className": "page-expense_body",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span>
+              No Expenses
+</span>,
+            "className": "page-expense__item  page-expense__item--message",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "No Expenses",
+            },
+            "ref": null,
+            "rendered": "No Expenses",
+            "type": "span",
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+    ],
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -43,22 +138,117 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <p>
-          No Expenses
-</p>,
+        "children": Array [
+          <div
+            className="page-expense__header"
+>
+            <div>
+                        Expense
+            </div>
+            <div>
+                        Amount
+            </div>
+</div>,
+          <div
+            className="page-expense_body"
+>
+            <div
+                        className="page-expense__item  page-expense__item--message"
+            >
+                        <span>
+                                    No Expenses
+                        </span>
+            </div>
+</div>,
+        ],
+        "className": "content-container",
       },
       "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "No Expenses",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div>
+                Expense
+</div>,
+              <div>
+                Amount
+</div>,
+            ],
+            "className": "page-expense__header",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Expense",
+              },
+              "ref": null,
+              "rendered": "Expense",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Amount",
+              },
+              "ref": null,
+              "rendered": "Amount",
+              "type": "div",
+            },
+          ],
+          "type": "div",
         },
-        "ref": null,
-        "rendered": "No Expenses",
-        "type": "p",
-      },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="page-expense__item  page-expense__item--message"
+>
+              <span>
+                            No Expenses
+              </span>
+</div>,
+            "className": "page-expense_body",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                No Expenses
+</span>,
+              "className": "page-expense__item  page-expense__item--message",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "No Expenses",
+              },
+              "ref": null,
+              "rendered": "No Expenses",
+              "type": "span",
+            },
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
       "type": "div",
     },
   ],
@@ -116,75 +306,167 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <ExpenseListItem
-          amount={195}
-          createdAt={0}
-          description="Gum"
-          id="1"
-          note=""
-/>,
-        <ExpenseListItem
-          amount={109500}
-          createdAt={-345600000}
-          description="Rent"
-          id="2"
-          note=""
-/>,
-        <ExpenseListItem
-          amount={4500}
-          createdAt={345600000}
-          description="Credit Card"
-          id="3"
-          note=""
-/>,
+        <div
+          className="page-expense__header"
+>
+          <div>
+                    Expense
+          </div>
+          <div>
+                    Amount
+          </div>
+</div>,
+        <div
+          className="page-expense_body"
+>
+          <ExpenseListItem
+                    amount={195}
+                    createdAt={0}
+                    description="Gum"
+                    id="1"
+                    note=""
+          />
+          <ExpenseListItem
+                    amount={109500}
+                    createdAt={-345600000}
+                    description="Rent"
+                    id="2"
+                    note=""
+          />
+          <ExpenseListItem
+                    amount={4500}
+                    createdAt={345600000}
+                    description="Credit Card"
+                    id="3"
+                    note=""
+          />
+</div>,
       ],
+      "className": "content-container",
     },
     "ref": null,
     "rendered": Array [
       Object {
         "instance": null,
-        "key": "1",
-        "nodeType": "function",
+        "key": undefined,
+        "nodeType": "host",
         "props": Object {
-          "amount": 195,
-          "createdAt": 0,
-          "description": "Gum",
-          "id": "1",
-          "note": "",
+          "children": Array [
+            <div>
+              Expense
+</div>,
+            <div>
+              Amount
+</div>,
+          ],
+          "className": "page-expense__header",
         },
         "ref": null,
-        "rendered": null,
-        "type": [Function],
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Expense",
+            },
+            "ref": null,
+            "rendered": "Expense",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Amount",
+            },
+            "ref": null,
+            "rendered": "Amount",
+            "type": "div",
+          },
+        ],
+        "type": "div",
       },
       Object {
         "instance": null,
-        "key": "2",
-        "nodeType": "function",
+        "key": undefined,
+        "nodeType": "host",
         "props": Object {
-          "amount": 109500,
-          "createdAt": -345600000,
-          "description": "Rent",
-          "id": "2",
-          "note": "",
+          "children": Array [
+            <ExpenseListItem
+              amount={195}
+              createdAt={0}
+              description="Gum"
+              id="1"
+              note=""
+/>,
+            <ExpenseListItem
+              amount={109500}
+              createdAt={-345600000}
+              description="Rent"
+              id="2"
+              note=""
+/>,
+            <ExpenseListItem
+              amount={4500}
+              createdAt={345600000}
+              description="Credit Card"
+              id="3"
+              note=""
+/>,
+          ],
+          "className": "page-expense_body",
         },
         "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "3",
-        "nodeType": "function",
-        "props": Object {
-          "amount": 4500,
-          "createdAt": 345600000,
-          "description": "Credit Card",
-          "id": "3",
-          "note": "",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "function",
+            "props": Object {
+              "amount": 195,
+              "createdAt": 0,
+              "description": "Gum",
+              "id": "1",
+              "note": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "function",
+            "props": Object {
+              "amount": 109500,
+              "createdAt": -345600000,
+              "description": "Rent",
+              "id": "2",
+              "note": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "function",
+            "props": Object {
+              "amount": 4500,
+              "createdAt": 345600000,
+              "description": "Credit Card",
+              "id": "3",
+              "note": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
       },
     ],
     "type": "div",
@@ -196,75 +478,167 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <ExpenseListItem
-            amount={195}
-            createdAt={0}
-            description="Gum"
-            id="1"
-            note=""
-/>,
-          <ExpenseListItem
-            amount={109500}
-            createdAt={-345600000}
-            description="Rent"
-            id="2"
-            note=""
-/>,
-          <ExpenseListItem
-            amount={4500}
-            createdAt={345600000}
-            description="Credit Card"
-            id="3"
-            note=""
-/>,
+          <div
+            className="page-expense__header"
+>
+            <div>
+                        Expense
+            </div>
+            <div>
+                        Amount
+            </div>
+</div>,
+          <div
+            className="page-expense_body"
+>
+            <ExpenseListItem
+                        amount={195}
+                        createdAt={0}
+                        description="Gum"
+                        id="1"
+                        note=""
+            />
+            <ExpenseListItem
+                        amount={109500}
+                        createdAt={-345600000}
+                        description="Rent"
+                        id="2"
+                        note=""
+            />
+            <ExpenseListItem
+                        amount={4500}
+                        createdAt={345600000}
+                        description="Credit Card"
+                        id="3"
+                        note=""
+            />
+</div>,
         ],
+        "className": "content-container",
       },
       "ref": null,
       "rendered": Array [
         Object {
           "instance": null,
-          "key": "1",
-          "nodeType": "function",
+          "key": undefined,
+          "nodeType": "host",
           "props": Object {
-            "amount": 195,
-            "createdAt": 0,
-            "description": "Gum",
-            "id": "1",
-            "note": "",
+            "children": Array [
+              <div>
+                Expense
+</div>,
+              <div>
+                Amount
+</div>,
+            ],
+            "className": "page-expense__header",
           },
           "ref": null,
-          "rendered": null,
-          "type": [Function],
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Expense",
+              },
+              "ref": null,
+              "rendered": "Expense",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Amount",
+              },
+              "ref": null,
+              "rendered": "Amount",
+              "type": "div",
+            },
+          ],
+          "type": "div",
         },
         Object {
           "instance": null,
-          "key": "2",
-          "nodeType": "function",
+          "key": undefined,
+          "nodeType": "host",
           "props": Object {
-            "amount": 109500,
-            "createdAt": -345600000,
-            "description": "Rent",
-            "id": "2",
-            "note": "",
+            "children": Array [
+              <ExpenseListItem
+                amount={195}
+                createdAt={0}
+                description="Gum"
+                id="1"
+                note=""
+/>,
+              <ExpenseListItem
+                amount={109500}
+                createdAt={-345600000}
+                description="Rent"
+                id="2"
+                note=""
+/>,
+              <ExpenseListItem
+                amount={4500}
+                createdAt={345600000}
+                description="Credit Card"
+                id="3"
+                note=""
+/>,
+            ],
+            "className": "page-expense_body",
           },
           "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "3",
-          "nodeType": "function",
-          "props": Object {
-            "amount": 4500,
-            "createdAt": 345600000,
-            "description": "Credit Card",
-            "id": "3",
-            "note": "",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "function",
+              "props": Object {
+                "amount": 195,
+                "createdAt": 0,
+                "description": "Gum",
+                "id": "1",
+                "note": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "function",
+              "props": Object {
+                "amount": 109500,
+                "createdAt": -345600000,
+                "description": "Rent",
+                "id": "2",
+                "note": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "function",
+              "props": Object {
+                "amount": 4500,
+                "createdAt": 345600000,
+                "description": "Credit Card",
+                "id": "3",
+                "note": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
         },
       ],
       "type": "div",

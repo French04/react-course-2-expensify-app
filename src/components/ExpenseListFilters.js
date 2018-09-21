@@ -36,26 +36,18 @@ export class ExpenseListFilters extends React.Component {
         return (
             <div className="content-container">
                 <div className="input-group">
-                    <div className="input-group__item">
+                    <div className="input-group__filter">
+                        <p className="input-description">Filter by name:</p>
                         <input
                             type="text"
                             className="text-input"
-                            placeholder="Search expenses"
+                            placeholder="Expenses Name"
                             value={this.props.filters.text}
                             onChange={this.onTextChange}
                         />
                     </div>
-                    <div className="input-group__item">
-                        <select
-                            className="select"
-                            value={this.props.filters.sortBy}
-                            onChange={this.onSortChange}
-                        >
-                            <option value="date">Date</option>
-                            <option value="amount">Amount</option>
-                        </select>
-                    </div>
-                    <div className="input-group__item">
+                    <div className="input-group__filter">
+                        <p className="input-description">Filter by date:</p>
                         <DateRangePicker
                             startDate={this.props.filters.startDate}
                             endDate={this.props.filters.endDate}
@@ -66,6 +58,17 @@ export class ExpenseListFilters extends React.Component {
                             numberOfMonths={1}
                             isOutsideRange={() => false}
                         />
+                    </div>
+                    <div>
+                        <p className="input-description">Order by:</p>
+                        <select
+                            className="select"
+                            value={this.props.filters.sortBy}
+                            onChange={this.onSortChange}
+                        >
+                            <option value="date">Date</option>
+                            <option value="amount">Amount</option>
+                        </select>
                     </div>
                 </div>
             </div>

@@ -9,15 +9,19 @@ export const ExpenseList = (props) => (
             <div>Expense</div>
             <div>Amount</div>
         </div>
-        {
-            props.expenses.length === 0 ? (
-                <p>No Expenses</p>
-            ) : (
-                props.expenses.map((expense) => {
-                    return <ExpenseListItem key={expense.id} {...expense} />;
-                })
-            )
-        }
+        <div className="page-expense_body">
+            {
+                props.expenses.length === 0 ? (
+                    <div className="page-expense__item  page-expense__item--message">
+                        <span>No Expenses</span>                
+                    </div>
+                ) : (
+                    props.expenses.map((expense) => {
+                        return <ExpenseListItem key={expense.id} {...expense} />;
+                    })
+                )
+            }
+        </div>
     </div>
 );
 
@@ -27,4 +31,4 @@ const mapStateToProps = (state) => {
     };
 };
 
-export default connect(mapStateToProps)(ExpenseList);
+export default connect(mapStateToProps)(ExpenseList); 

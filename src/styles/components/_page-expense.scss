@@ -1,16 +1,55 @@
 .page-expense__header {
-    background: #f7f7f7;                            //set background color
+    background: $off-white;                            //set background color
     display: flex;
     justify-content: space-between;                   //distanzia gli elementi all'interno del box
-    padding: 0 $medium-size;
+    padding: $small-size $medium-size;
     color: $gray;
-    border: 1px solid darken( #f7f7f7, 5%);
+    border: 1px solid darken( $off-white, 7%);
+}
+
+.page-expense_body {
+    margin: 0 0 $medium-size 0;
+    @media (min-width: $desktop-breakpoint) {
+        margin: 0 0 $large-size 0;
+    }
 }
 
 .page-expense__item {
     display: flex;
     justify-content: space-between;                   //distanzia gli elementi all'interno del box
-    border: 1px solid darken( #f7f7f7, 5%);
+    border: 1px solid darken( $off-white, 7%);
+    border-top: none;
+    color: $dark-grey;
     padding: 0 $medium-size;
     text-decoration: none;
+    align-items: center;
+
+    transition: background 1s ease;
+    &:hover {
+        background: $off-orange;
+    }
+}
+
+.page-expense__item--message {
+    align-items: center;
+    justify-content: center;
+    color: $gray;
+    padding: $medium-size;
+    &:hover {
+        background: none;
+    }
+}
+
+.page-expense__title {
+    margin: 0;
+    word-break: break-all;
+}
+
+.page-expense__sub-title {
+    color: $gray;
+    font-size: $font-size-small;
+}
+
+.page-expense__data {
+    padding: 0 0 0 $medium-size;
 }
